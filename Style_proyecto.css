@@ -8,7 +8,7 @@
     width: 80%;
     margin: 20px auto;
 }
-.print-area .header{
+.print-area .Cabeza{
 width: 100%;
 height: 150px;
 background-color: rgb(31, 34, 43);
@@ -16,7 +16,7 @@ display: flex;
 align-items: center;
 position: relative;
 }
-.header img{
+.Cabeza img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -30,21 +30,21 @@ position: relative;
     user-select: none;
    
 }
-.header img:hover{
+.Cabeza img:hover{
     filter: grayscale(0%);
     transform: scale(1.05%);
     box-shadow: 3px 3px 20px rgba(0,0,0,.5);
 }
-.header-text{
+.Principal{
     color: white;
     width: 60%;
     margin-left: auto;
 } 
-.header-text h1{
+.Principal h1{
     font-size: 50px;
     font-weight: normal;
 }
-.header-text p{
+.Principal p{
     font-size: 20px;
     color: lightgrey;
 }
